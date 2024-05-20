@@ -16,4 +16,4 @@ COPY src .
 # configure the container to run in an executed manner
 EXPOSE 8000
 
-CMD uvicorn main:app --host 0.0.0.0 --port 8000
+CMD uvicorn repaso:app --host 0.0.0.0 --port 8000
